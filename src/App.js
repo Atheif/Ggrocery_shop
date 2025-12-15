@@ -11,8 +11,7 @@ import VerifyOTP from './pages/VerifyOTP';
 import AddProduct from './pages/AddProduct';
 import ProductDetails from './pages/ProductDetails';
 import OrderPage from './pages/BuyNow';
-import FaceCapture from './pages/FaceCapture';
-import FaceVerify from './pages/FaceVerify';
+
 
 function App() {
   return (
@@ -29,8 +28,7 @@ function App() {
             <Route path="/login" element={<Login />} />
             <Route path="/register" element={<Register />} />
             <Route path="/verify-otp" element={<VerifyOTP />} />
-            <Route path="/face-capture" element={<FaceCapture />} />
-            <Route path="/face-verify" element={<FaceVerify />} />
+
             <Route path="/add-product" element={<AddProduct />} />
             <Route path="/product/:id" element={<ProductDetails />} />
           </Routes>
